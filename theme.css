@@ -1,0 +1,52 @@
+/*******************************
+
+YOU CAN IGNORE THIS FILE 👍
+
+This is just to clean up the default appearance and catch some layout quirks. 
+
+******************************* */
+
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #eeeeee;
+}
+
+
+header { padding: 1rem; }
+
+article { 
+  padding: 2rem 1rem;
+  line-height: 1.65; 
+}
+
+p { margin-bottom: 1rem; }
+
+.challenge { margin-bottom: 3.5rem; }
+
+.checkbox {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin-top: 0.75em;
+}
+
+.note {
+  border: 2px solid #cdcdcd;
+  padding: 1rem;
+  font-size: 0.9em;
+}
+
+code {
+  background-color: gainsboro;
+  padding: 0.125ch 0.25ch;
+  border-radius: 0.25ch;
+  font-size: 0.9em;
+}

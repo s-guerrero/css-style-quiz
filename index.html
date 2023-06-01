@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>CSS Style Quiz</title>
+
+    <!-- Import stylesheets -->
+    <link rel="stylesheet" href="/theme.css" />
+    <link rel="stylesheet" href="/style.css" />
+
+  </head>
+  
+  
+  
+  <body>
+    
+<!--  Nav menu -->
+    <nav>
+      <ul>
+         <li><a href="#">Nowhere</a></li>
+         <li><a href="#">To</a></li>
+         <li><a href="#">Menu</a></li>
+         <li><a href="#">Nav</a></li>
+         <li><a href="#">On a</a></li>
+         <li><a href="#">We're</a></li>
+      </ul>
+    </nav>
+    
+<!--  Hero section -->
+    <header class="hero">
+       <h1>😎 Let's make this site look good </h1>
+    </header>
+    
+<!--  Main content area -->
+    <article>
+    
+        <p> This page has a <em>tiny</em> amount of CSS applied by default (in <code>theme.css</code>), so it is pretty close to the appearance of raw HTML. Try resizing your browser and appreciate that it adapts to different screen sizes quite nicely right out of the box! </p>
+      
+      <p>Edit the <code>style.css</code> file to complete the objectives described below. You will need to look at <code>index.html</code> to find the appropriate element names and <a href="https://www.internetingishard.com/html-and-css/css-selectors/#class-selectors">classes</a>, and then target them with CSS Selectors to apply specific properties. Links are included to guide you, but if you are struggling, review the articles at <a href="https://www.internetingishard.com/html-and-css/">Interneting is Hard</a> or contact your instructor. </p>
+        
+      <p class="note">
+        <strong>Note:</strong> The checkboxes will not persist when the page refreshes, but may be used to double-check your work or during instructor feedback.
+      </p>
+      
+      <h2> Challenges</h2>
+      
+        <ol class="challenge-list">
+          
+          <li class="challenge">Give a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/max-width">max-width</a> to the <code>&lt;article&gt;</code> element in order to constrain its <a href="https://practicaltypography.com/line-length.html">line length</a> to a resonable width. Then use margins to <a href="https://www.internetingishard.com/html-and-css/css-box-model/#centering-with-auto-margins">center </a> the <code>&lt;article&gt;</code> element horizontally within the page. It should look like a typical article or blog post with space on the left and right. To visualize the <code>&lt;article&gt;</code> element on the page, you can temporarily give it a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-color">background-color</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border">border</a>.</li>
+
+          <li class="challenge">Change the color of all hyperlinks during a <a href="">mouse hover</a> event.</li>
+          
+          <li class="challenge">Apply a new background-color to the <code>&lt;nav&gt;</code> element and add some <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding">padding</a>.</li>
+          
+          <li class="challenge"> Remove the bullet points on all the nav links with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type">list-style-type</a></li>
+  
+          <li class="challenge"> Make the list go horizontally by applying <code>display: flex</code> to to the unordered list, then space the items out equally with <a href="https://www.internetingishard.com/html-and-css/flexbox/#distributing-multiple-flex-items">justify-content</a>. Read more about <a href="https://www.internetingishard.com/html-and-css/flexbox/">Flexbox</a> if needed.</li>
+          
+          <li class="challenge">Reverse the order of the nav items with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction">flex-direction</a>.</li>
+          
+          
+          
+          <li class="challenge">Give a unique text or background color for <em>only</em> the nav item reading "Nowhere". (You could use a class name or a <a href="https://www.internetingishard.com/html-and-css/css-selectors/#pseudo-classes-for-structure">pseudo-selector</a> to do this)</li>
+          
+           <li class="challenge">Use a fluid unit, such as <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#relative_length_units">vw</a> to have the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size">font-size</a> of the <code>&lt;h1&gt;</code> change with the browser's width. You can set a minimum and maxium font-size by using <a href="https://fluid-typography.netlify.app/">clamp</a>. Resize your window (or the Glitch Preview pane) to test.</li>
+          
+          <li class="challenge">Give the <code>header</code> (the "hero" area containing the page title) a substantial <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/height">height</a> (at least 300px) and a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient">linear-gradient</a> <code>background-image</code>.
+            
+          <li class="challenge">Finally, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container">center the title horizontally and vertically</a> within the header using Flexbox. Once again, if the text color is hard to make out, you can change it's color to ensure sufficient <a href="https://color.review/">contrast</a>.</li></li>
+    
+        </ol>
+       
+    </article>
+  
+  <script type="text/javascript" src="scripts.js"></script>
+  </body>
+  
+</html>
