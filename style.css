@@ -1,1 +1,26 @@
-/* Place your CSS styles here */
+/* Place your CSS styles here *
+nav { 
+    background-color: plum; 
+}
+nav {
+    padding: 2em 2em 2em 2em
+}
+nav {
+    list-style-type: none;
+}
+ul { 
+     display: flex;
+     justify-content: flex-start;
+}
+nav {
+    flex-direction: row-reverse;
+}
+.Nowhere {
+    font-family: Gill Sans; 
+}
+h1 {
+    font-size: 50vw
+}
+h1 {
+    font-size: 400px
+}
